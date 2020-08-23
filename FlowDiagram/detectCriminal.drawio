@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" modified="2020-08-21T12:49:09.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36 OPR/69.0.3686.66" etag="riJhHj4c2yB-7mhcTS0x" version="13.6.4" type="github">
+  <diagram id="DujgkEMAx8aiVVLV3xSR" name="Page-1">
+    <mxGraphModel dx="982" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-1" target="4t9HBt8ajLTE6OBR21qT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-1" value="START(detectCriminals)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-4" target="4t9HBt8ajLTE6OBR21qT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-4" value="Initialize Recognizer&amp;nbsp;&lt;br&gt;AND&amp;nbsp;&lt;br&gt;Load train data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-6" target="4t9HBt8ajLTE6OBR21qT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-6" value="Initialize detector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-8" target="4t9HBt8ajLTE6OBR21qT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-8" value="Open Labels_ids dictionary in reverse order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-11" target="4t9HBt8ajLTE6OBR21qT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-11" value="Reverse order&lt;br&gt;{lebel:id} =&amp;gt; {id:lebel}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-13" target="4t9HBt8ajLTE6OBR21qT-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-13" value="Open webcam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-15" target="4t9HBt8ajLTE6OBR21qT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-15" value="Read image form camera" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-17" target="4t9HBt8ajLTE6OBR21qT-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-17" value="Convert to gray" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-19" target="4t9HBt8ajLTE6OBR21qT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-19" value="Detect face" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-21" target="4t9HBt8ajLTE6OBR21qT-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-21" value="Recognize face id using recognizer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-22" value="If correct 5 times" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1430" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-24" target="4t9HBt8ajLTE6OBR21qT-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-24" value="Display name as detected&lt;br&gt;AND&amp;nbsp;&lt;br&gt;Make attendance" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="4t9HBt8ajLTE6OBR21qT-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1510" as="sourcePoint" />
+            <mxPoint x="470" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-26" value="Yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="4t9HBt8ajLTE6OBR21qT-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-27" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-22" target="4t9HBt8ajLTE6OBR21qT-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1380" as="sourcePoint" />
+            <mxPoint x="290" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="1470" />
+              <mxPoint x="290" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-28" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1450" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4t9HBt8ajLTE6OBR21qT-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-30" value="convert id to name using label_ids dictonary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4t9HBt8ajLTE6OBR21qT-31" value="END" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

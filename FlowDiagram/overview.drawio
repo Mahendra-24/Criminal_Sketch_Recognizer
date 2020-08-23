@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2020-08-21T15:14:35.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36 OPR/69.0.3686.66" etag="vpiO05c9MU9D1GSV8YsJ" version="13.6.4" type="github">
+  <diagram id="f6G28fxmBeSaTnjEu7x0" name="Page-1">
+    <mxGraphModel dx="982" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TDfCvjrbn2xw5w_QsfOf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TDfCvjrbn2xw5w_QsfOf-1" target="TDfCvjrbn2xw5w_QsfOf-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TDfCvjrbn2xw5w_QsfOf-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TDfCvjrbn2xw5w_QsfOf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TDfCvjrbn2xw5w_QsfOf-2" target="TDfCvjrbn2xw5w_QsfOf-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TDfCvjrbn2xw5w_QsfOf-2" value="Register criminals" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TDfCvjrbn2xw5w_QsfOf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TDfCvjrbn2xw5w_QsfOf-4" target="TDfCvjrbn2xw5w_QsfOf-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TDfCvjrbn2xw5w_QsfOf-4" value="Train on database" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TDfCvjrbn2xw5w_QsfOf-6" value="detectCriminals" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
